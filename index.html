@@ -1,7 +1,324 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="owo games" content="owo games studio">
+    <!-- <meta name="Michal Rychetnik" content="Michal Rychetnik"> -->
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>owo games</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css/aos.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.png">
+</head>
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="assets/images/owo_games_logo.svg" alt="owo games logo"></a>
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">owo games</a> -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbar" >
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                </ul>
+                
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Home -->
+    <section class="home py-5 d-flex align-items-center" id="header">
+        <div class="container text-light py-5"  data-aos="fade-right"> 
+            <h1 class="headline">We <span class="home_text">make </span>games!</h1>
+            <p class="para para-light py-3">Hi, we’re a full production team that works together 2+ years and specialize in mobile video games 👋</p>
+            
+            <!-- button reference
+            <div class="my-3">
+                <a class="btn" href="#work">Our work</a>
+            </div> -->
+            
+        </div> <!-- end of container -->
+    </section> <!-- end of home -->
+   
+
+    <!-- About -->
+    <section class="about d-flex align-items-center text-light py-5" id="about">
+        <div class="container" >
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <p>ABOUT US</p>
+                    <h1>We are complete production team of developers working in Unity</h1>
+                    <p class="py-2 para-light">Most of our team members are seniors in their field and game dev veterans with multiple game titles in our resume.</p>
+
+                </div>
+                <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                    <img class="img-fluid" src="./assets/images/owo_games_logo_bg.svg" alt="owo games logo with background" >
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of about -->
+
+    <!-- Team -->
+    <section class="team d-flex align-items-center py-5" id="team">
+        <div class="container text-light" >
+            <div class="text-left pb-4">
+                <p>TEAM</p>
+                <p class="para-light">Get to know us!</p>
+            </div>           
+    
+            <div class="row gy-4" data-aos="zoom-in"> <!-- start of row -->
+                <h2 class="py-2">Web Desperados</h2>
+                <div class="col-lg-4">
+                        <div class="card bg-transparent px-4">
+                            <img class="py-2" src="assets/images/majkl_laid_off.png" alt="Michal Rychetnik Profile Picture">
+                        
+                            <h4 class="py-2">Majkl Rajčetník</h4>
+                            <div class="d-inline gy-1">
+                                <span class="badge">web dev salty boy</span>
+                            </div>
+                            <p class="py-3">I break things. WooWee. </p>
+                            
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+
+                            <div class="footer d-flex">
+                                <div class="me-3">
+                                    <a href="https://www.linkedin.com/in/michal-rychetn%C3%ADk-a55801196/">
+                                        <i class="fab fa-linkedin fa-2x py-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>  
+                </div> 
+
+                <div class="col-lg-4">
+                    <div class="card bg-transparent px-4">
+                        <img class="py-2" src="assets/images/majkl_laid_off.png" alt="Michal Rychetnik Profile Picture">
+                    
+                        <h4 class="py-2">Majkl Rajčetník</h4>
+                        <div class="d-inline gy-1">
+                            <span class="badge">web dev salty boy</span>
+                        </div>
+                        <p class="py-3">I break things. WooWee. </p>
+                        
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                        <div class="footer d-flex">
+                            <div class="me-3">
+                                <a href="https://www.linkedin.com/in/michal-rychetn%C3%ADk-a55801196/">
+                                    <i class="fab fa-linkedin fa-2x py-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card bg-transparent px-4">
+                    <img class="py-2" src="assets/images/majkl_laid_off.png" alt="Michal Rychetnik Profile Picture">
+                
+                    <h4 class="py-2">Majkl Rajčetník</h4>
+                    <div class="d-inline gy-1">
+                        <span class="badge">web dev salty boy</span>
+                    </div>
+                    <p class="py-3">I break things. WooWee. </p>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                    <div class="footer d-flex">
+                        <div class="me-3">
+                            <a href="https://www.linkedin.com/in/michal-rychetn%C3%ADk-a55801196/">
+                                <i class="fab fa-linkedin fa-2x py-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+        </div>
+            </div> <!-- end of row -->  
+
+            <div class="row gy-4" data-aos="zoom-in">
+                <h2 class="py-2">QA</h2>
+                <div class="col-lg-4">
+                        <div class="card bg-transparent px-4">
+                            <img src="assets/images/team_mr.jpg" alt="Michal Rychetnik Profile Picture">
+                            <h4 class="py-3">Michal Rychetník</h4>
+                            <div class="d-inline gy-1">
+                                <span class="badge">lead tester</span>
+                                <span class="badge">good boi</span>
+                            </div>
+                            <p class="py-1">QA veteran with experience in game dev for over 4 years.</p>
+                            <p class="py-1">Left his mark on games like Mafia:DE, DayZ, Vigor and Port City.</p>
+                            <p class="py-1">Tipping his toes in UI/UX and light coding.</p>
+
+                            <div class="footer d-flex">
+                                <div class="me-3">
+                                    <a href="https://www.linkedin.com/in/michal-rychetn%C3%ADk-a55801196/">
+                                        <i class="fab fa-linkedin fa-2x py-2"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                             
+                            <!-- <div class="my-3">
+                                <a class="btn" href="#your-link" > <img src="assets/images/LinkedIn_icon.webp" alt="LinkedIn logo" width="100rem" height="100rem"> </a>
+                            </div> -->
+                        </div>  
+                </div> 
+            </div> <!-- end of row -->  
+                      
+        </div> <!-- end of container -->
+    </section> <!-- end of team -->
+
+    
+    <!-- Work -->
+    <section class="work d-flex align-items-center py-5" id="work" >
+        <div class="container-fluid text-light">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
+                    <img class="img-fluid" src="./assets/images/portcity logo.png" alt="port city logo">        
+                </div>
+                <div class="col-lg-5 d-flex align-items-center px-4 py-3" data-aos="">
+                    <div class="row">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <p>OUR WORK</p>
+                            <h2 class="py-2">Port City</h2>
+                            <p class="para-light">A mobile game our team developed while working under Pixel Federation.</p>
+                        </div>
+                        <div class="container" data-aos="fade-up">
+                            <div class="row g-5">
+                                <div class="col-6 text-start" >
+                                    <i class="fas fa-briefcase fa-2x text-start"></i>
+                                    <h2>LiveOps</h2>
+                                    <p>2021 - 2024</p>
+                                    
+                                </div>
+                                <div class="col-6" >
+                                    <i class="fas fa-award fa-2x"></i>
+                                    <h2>Events Created</h2>
+                                    <p>36</p>
+                                </div>
+                                
+                            </div>
+                        </div> <!-- end of container -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of col-lg-5 -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of work -->
+
+
+    <!-- Location -->
+    <section class="location text-light py-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>LOCATION</h6>
+                        <p>Brno, CZ</p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>CALL FOR QUERY</h6>
+                        <p>(800) 265  216 2020</p>
+                    </div>
+                </div> -->
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>SEND US MESSAGE</h6>
+                        <p>owogames@proton.me</p>
+                    </div>
+                </div>
+                
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of location -->
+
+
+    <!-- Footer -->
+    <section class="footer text-light">
+        <div class="container">
+            
+        </div> <!-- end of container -->
+    </section> <!-- end of footer -->
+    
+
+    <!-- Bottom -->
+    <div class="bottom py-2 text-light" >
+        <div class="container d-flex justify-content-between">
+            <div>
+                <p>Copyright © owo games</p><br>
+                <p>Theme by: <a href="https://themewagon.com/">Themewagon</a></p>
+            </div>
+        </div> <!-- end of container -->
+    </div> <!-- end of bottom -->
+ 
+    
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="assets/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+    
+    <!-- Scripts -->
+    <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+    <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+    <script src="./js/script.js"></script>  <!-- Custom scripts -->
 </body>
 </html>
